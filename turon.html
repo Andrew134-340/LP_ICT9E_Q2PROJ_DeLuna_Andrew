@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turon - Recipe | Sarap Pinoy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+            background-image: url('images/pattern-background.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            color: #fff;
+        }
+
+        .navbar {
+            background-color: #ffc107;
+        }
+        .navbar-brand {
+            font-weight: bold;
+        }
+
+        header {
+            text-align: center;
+            padding: 2rem;
+            background-color: rgba(255, 193, 7, 0.9); 
+            border-bottom: 5px solid #fff;
+        }
+        header h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #703b09;
+        }
+        header p {
+            font-size: 1.2rem;
+            color: #4a2e07;
+        }
+
+        .recipe-section {
+            padding: 4rem 0;
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+        .recipe-title {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #ffc107;
+        }
+        .recipe-instructions {
+            color: #fff;
+            font-size: 1.1rem;
+            margin-top: 1.5rem;
+        }
+        .recipe-ingredients {
+            font-size: 1.1rem;
+            color: #fff;
+            margin-top: 2rem;
+        }
+        .recipe-steps {
+            list-style-type: decimal;
+            margin-top: 1rem;
+        }
+
+        footer {
+            background-color: #703b09;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+        footer p {
+            margin: 0;
+            font-size: 1rem;
+        }
+        footer a {
+            color: #ffc107;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Sarap Pinoy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="categories.html">Categories</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="submit.html">Submit Recipe</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Turon Recipe</h1>
+        <p class="lead">Sweet banana and jackfruit spring rolls fried to perfection, a delightful snack!</p>
+    </header>
+
+    <section class="recipe-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="https://www.seriouseats.com/thmb/elzl8iopwr-WrEbCIApwmTXhB7M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20210617-turon-vicky-wasik-seriouseats-seriouseats-25-c8fab2c218bf47d484afb614e51e3376.jpg" alt="Turon" class="img-fluid rounded">
+                </div>
+                <div class="col-md-6">
+                    <div class="recipe-title">Ingredients:</div>
+                    <ul class="recipe-ingredients">
+                        <li>4 ripe saba bananas (or plantains)</li>
+                        <li>1 cup jackfruit (fresh or canned, sliced thinly)</li>
+                        <li>1 pack spring roll wrappers (around 10-12 sheets)</li>
+                        <li>1/2 cup brown sugar</li>
+                        <li>1/4 teaspoon ground cinnamon (optional)</li>
+                        <li>1 tablespoon cooking oil (for frying)</li>
+                    </ul>
+
+                    <div class="recipe-title">Instructions:</div>
+                    <ol class="recipe-steps">
+                        <li>Peel the bananas and cut each one into thirds.</li>
+                        <li>If using canned jackfruit, drain and cut into thin strips. If using fresh, cut it into small strips as well.</li>
+                        <li>Sprinkle the brown sugar and cinnamon (if using) onto a plate.</li>
+                        <li>Place a spring roll wrapper on a flat surface, then add a slice of banana and some jackfruit in the center.</li>
+                        <li>Sprinkle a little sugar mixture over the banana and jackfruit.</li>
+                        <li>Carefully roll the wrapper around the banana and jackfruit, folding in the sides to seal the ends.</li>
+                        <li>Repeat until all the wrappers and filling are used up.</li>
+                        <li>Heat oil in a pan over medium heat and fry the spring rolls until golden and crispy, turning occasionally for even frying.</li>
+                        <li>Once fried, remove from the oil and drain on paper towels to remove excess oil.</li>
+                        <li>Serve hot and enjoy your crispy, sweet Turon!</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Sarap Pinoy. All rights reserved. | <a href="index.html" class="text-warning">Back to Home</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

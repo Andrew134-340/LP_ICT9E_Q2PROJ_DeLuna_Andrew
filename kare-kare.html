@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kare-Kare Recipe | Sarap Pinoy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+            background-image: url('images/pattern-background.jpg'); 
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            color: #fff;
+        }
+
+        .navbar {
+            background-color: #ffc107;
+        }
+        .navbar-brand {
+            font-weight: bold;
+        }
+
+        header {
+            text-align: center;
+            padding: 2rem;
+            background-color: rgba(255, 193, 7, 0.9); 
+            border-bottom: 5px solid #fff;
+        }
+        header h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #703b09;
+        }
+        header p {
+            font-size: 1.2rem;
+            color: #4a2e07;
+        }
+
+        .recipe-section {
+            padding: 4rem 0;
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+        .recipe-title {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #ffc107;
+        }
+        .recipe-instructions {
+            color: #fff;
+            font-size: 1.1rem;
+            margin-top: 1.5rem;
+        }
+        .recipe-ingredients {
+            font-size: 1.1rem;
+            color: #fff;
+            margin-top: 2rem;
+        }
+        .recipe-steps {
+            list-style-type: decimal;
+            margin-top: 1rem;
+        }
+
+
+        footer {
+            background-color: #703b09;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+        footer p {
+            margin: 0;
+            font-size: 1rem;
+        }
+        footer a {
+            color: #ffc107;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Sarap Pinoy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="categories.html">Categories</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="submit.html">Submit Recipe</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Kare-Kare Recipe</h1>
+        <p class="lead">A rich and savory Filipino oxtail stew made with peanut sauce, vegetables, and bagoong on the side.</p>
+    </header>
+
+    <section class="recipe-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="https://www.foodies.ph/_recipeimage/267792/kare-kare-1.jpg" alt="Kare-Kare" class="img-fluid rounded">
+                </div>
+                <div class="col-md-6">
+                    <div class="recipe-title">Ingredients:</div>
+                    <ul class="recipe-ingredients">
+                        <li>1 kg oxtail (or beef shank), cut into pieces</li>
+                        <li>1/2 kg tripes (optional), cut into pieces</li>
+                        <li>1/2 cup peanut butter</li>
+                        <li>1/4 cup annatto seeds (atsuete), soaked in warm water</li>
+                        <li>1 large eggplant, sliced</li>
+                        <li>1 bunch string beans, cut into 2-inch pieces</li>
+                        <li>1 banana heart (puso ng saging), sliced (optional)</li>
+                        <li>1/2 cup bagoong (fermented shrimp paste)</li>
+                        <li>5 cups beef broth (or water for boiling the oxtail)</li>
+                        <li>2 tablespoons cooking oil</li>
+                        <li>Salt and pepper to taste</li>
+                    </ul>
+
+                    <div class="recipe-title">Instructions:</div>
+                    <ol class="recipe-steps">
+                        <li>In a large pot, bring the beef broth to a boil. Add the oxtail and tripes, if using, and simmer for about 2 hours, or until the meat becomes tender.</li>
+                        <li>While the meat is cooking, sauté garlic and onion in oil in a separate pan until fragrant and soft.</li>
+                        <li>Once the meat is tender, remove it from the pot and set aside. Strain the broth and set aside as well.</li>
+                        <li>In the same pan, add the sautéed garlic and onion mixture to the pot with the beef broth, followed by the peanut butter and annatto water.</li>
+                        <li>Stir everything well and bring to a simmer for about 5 minutes to allow the flavors to combine.</li>
+                        <li>Return the oxtail (and tripes, if using) to the pot. Add the vegetables and cook until tender, about 10-15 minutes.</li>
+                        <li>Season with salt and pepper to taste. Adjust the consistency of the sauce by adding more broth if needed.</li>
+                        <li>Serve hot with a side of bagoong (fermented shrimp paste) and enjoy!</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Sarap Pinoy. All rights reserved. | <a href="index.html" class="text-warning">Back to Home</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kwek-Kwek Recipe | Sarap Pinoy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+            background-image: url('images/pattern-background.jpg'); 
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            color: #fff;
+        }
+
+        .navbar {
+            background-color: #ffc107;
+        }
+        .navbar-brand {
+            font-weight: bold;
+        }
+
+        header {
+            text-align: center;
+            padding: 2rem;
+            background-color: rgba(255, 193, 7, 0.9); 
+            border-bottom: 5px solid #fff;
+        }
+        header h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #703b09;
+        }
+        header p {
+            font-size: 1.2rem;
+            color: #4a2e07;
+        }
+
+        .recipe-section {
+            padding: 4rem 0;
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+        .recipe-title {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #ffc107;
+        }
+        .recipe-instructions {
+            color: #fff;
+            font-size: 1.1rem;
+            margin-top: 1.5rem;
+        }
+        .recipe-ingredients {
+            font-size: 1.1rem;
+            color: #fff;
+            margin-top: 2rem;
+        }
+        .recipe-steps {
+            list-style-type: decimal;
+            margin-top: 1rem;
+        }
+
+        footer {
+            background-color: #703b09;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+        footer p {
+            margin: 0;
+            font-size: 1rem;
+        }
+        footer a {
+            color: #ffc107;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Sarap Pinoy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="categories.html">Categories</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="submit.html">Submit Recipe</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Kwek-Kwek Recipe</h1>
+        <p class="lead">Quail eggs coated in a crunchy, golden batter, perfect for a snack or appetizer!</p>
+    </header>
+
+    <section class="recipe-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="https://themayakitchen.com/wp-content/uploads/2020/09/Kwek-%E2%80%93-Kwek-7.jpg" alt="Kwek-Kwek" class="img-fluid rounded">
+                </div>
+                <div class="col-md-6">
+                    <div class="recipe-title">Ingredients:</div>
+                    <ul class="recipe-ingredients">
+                        <li>12 quail eggs, hard-boiled</li>
+                        <li>1/2 cup all-purpose flour</li>
+                        <li>1/2 cup cornstarch</li>
+                        <li>1/4 teaspoon baking powder</li>
+                        <li>1/4 teaspoon salt</li>
+                        <li>1/2 cup water (adjust for consistency)</li>
+                        <li>1/2 teaspoon turmeric powder (for color)</li>
+                        <li>1/4 cup cooking oil (for frying)</li>
+                        <li>Wooden skewers or toothpicks (optional, for serving)</li>
+                    </ul>
+
+                    <div class="recipe-title">Instructions:</div>
+                    <ol class="recipe-steps">
+                        <li>Carefully peel the quail eggs after boiling and set them aside.</li>
+                        <li>In a bowl, combine the all-purpose flour, cornstarch, baking powder, salt, and turmeric powder.</li>
+                        <li>Gradually add water and mix until you have a smooth batter.</li>
+                        <li>Heat oil in a frying pan over medium heat.</li>
+                        <li>Dip each quail egg into the batter, ensuring it’s well-coated.</li>
+                        <li>Carefully place the coated quail egg into the hot oil and fry until golden brown and crispy.</li>
+                        <li>Remove the fried eggs from the oil and drain on paper towels to remove excess oil.</li>
+                        <li>Optionally, skewer the eggs with wooden sticks or toothpicks for easy serving.</li>
+                        <li>Serve hot with a side of sweet and spicy vinegar or your favorite dipping sauce. Enjoy your crispy Kwek-Kwek!</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Sarap Pinoy. All rights reserved. | <a href="index.html" class="text-warning">Back to Home</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

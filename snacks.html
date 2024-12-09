@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarap Pinoy - Snacks</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+            background-image: url('images/pattern-background.jpg'); 
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            color: #fff;
+        }
+
+        .navbar {
+            background-color: #ffc107;
+        }
+        .navbar-brand {
+            font-weight: bold;
+        }
+        .navbar .form-control {
+            max-width: 300px; 
+        }
+        header {
+            text-align: center;
+            padding: 2rem;
+            background-color: rgba(255, 193, 7, 0.9); 
+            border-bottom: 5px solid #fff;
+        }
+        header h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #703b09;
+        }
+        header p {
+            font-size: 1.2rem;
+            color: #4a2e07;
+        }
+
+        .card {
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 15px;
+            color: #fff;
+        }
+        .card-img-top {
+            border-radius: 15px 15px 0 0;
+            object-fit: cover;
+            height: 200px;
+        }
+        .card-body {
+            padding: 1.5rem;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        .card-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #ffc107;
+        }
+
+        footer {
+            background-color: #703b09;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+            font-size: 1rem;
+        }
+        footer a {
+            color: #ffc107;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Sarap Pinoy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="categories.html">Categories</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="submit.html">Submit Recipe</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Snack Recipes</h1>
+        <p>Discover quick and delicious snacks to enjoy anytime!</p>
+    </header>
+
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/1130Banana_cue_Street_vendors_02.jpg" class="card-img-top" alt="Banana Cue">
+                        <div class="card-body">
+                            <h5 class="card-title">Banana Cue</h5>
+                            <p class="card-text">A classic Filipino street snack made with caramelized bananas on skewers.</p>
+                            <a href="banana-cue.html" class="btn btn-warning">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="https://www.seriouseats.com/thmb/elzl8iopwr-WrEbCIApwmTXhB7M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20210617-turon-vicky-wasik-seriouseats-seriouseats-25-c8fab2c218bf47d484afb614e51e3376.jpg" class="card-img-top" alt="Turon">
+                        <div class="card-body">
+                            <h5 class="card-title">Turon</h5>
+                            <p class="card-text">Sweet banana and jackfruit spring rolls fried to perfection.</p>
+                            <a href="turon.html" class="btn btn-warning">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="https://themayakitchen.com/wp-content/uploads/2020/09/Kwek-%E2%80%93-Kwek-7.jpg" class="card-img-top" alt="Kwek-Kwek">
+                        <div class="card-body">
+                            <h5 class="card-title">Kwek-Kwek</h5>
+                            <p class="card-text">Deep-fried quail eggs coated in orange batter, served with a tangy sauce.</p>
+                            <a href="kwek-kwek.html" class="btn btn-warning">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Sarap Pinoy. All rights reserved. | <a href="index.html" class="text-warning">Back to Home</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
